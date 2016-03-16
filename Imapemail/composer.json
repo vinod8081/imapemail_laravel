@@ -1,0 +1,20 @@
+{
+    "name": "codebank/imapemail",
+    "description": "A small imapemail app",
+    "authors": [
+        {
+            "name": "vinod pawar",
+            "email": "vinod.pawar@silicus.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {
+            "Codebank\\Imapemail\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.*",
+        "illuminate/support": "5.1.*"
+    }
+}
